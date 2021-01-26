@@ -25,12 +25,13 @@ SECRET_KEY = 'tg5-jz$52o@d%$ef@z8g3xn=qkqpm4hm#n2g2rz416_t#fn8$q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'Initial_Terror.apps.InitialTerrorConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
